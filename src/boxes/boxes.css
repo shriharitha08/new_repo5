@@ -1,0 +1,32 @@
+.parent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  min-height: 40vh;
+}
+
+.child {
+  width: 150px;
+  height: 150px;
+  background-color: coral;
+}
+
+.child__two {
+  width: 150px;
+  height: 150px;
+  background-color: lightblue;
+}
+
+.child__three {
+  width: 150px;
+  height: 150px;
+  background-color: lightgreen;
+}
+
+.child__four {
+  width: 150px;
+  height: 150px;
+  background-color: gold;
+}
